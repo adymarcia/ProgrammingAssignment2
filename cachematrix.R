@@ -1,5 +1,14 @@
-## Put comments here that give an overall description of what your
-## functions do
+#The two functions below create a special matrix and solve the inverse of the matrix
+#The first function produces the spacial matrix and allows the user four list options
+#which may be performed on the matrix:
+#  1) setMatrixValue which assigns the a value to the matrix;
+#  2) getMatrix which returns the values stores in the matrix;
+#  3) cacheInverseMatrix stores the inverse of a matrix in the cache; and
+#  4) getInverseMatrix returns the inverse of the matrix.
+
+#The second function cacheSolve solves the inverse of a matrix if the value is not already stored in cache.
+#In the event the value is already in cache, the computation is skipped and the stored value is printed
+
 
 ##This function produces a list of four functions which can be called on a matrix.
 #The functions make a cache matrix (a matrix stored in the cache of the system), return the matrix, cache the inverse of the matrix and print the inverse matrix 
